@@ -1,0 +1,19 @@
+{
+  "name": "pegged",
+  "version": "1.0.0",
+  "description": "Redis backed leaderboard ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ranking",
+    "redis",
+    "leaderboard"
+  ],
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^2.4.2"
+  }
+}
