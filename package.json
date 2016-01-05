@@ -1,10 +1,10 @@
 {
   "name": "pegged",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Redis backed leaderboard ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "keywords": [
     "ranking",
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.1.1",
+    "hiredis": "^0.4.1",
     "redis": "^2.4.2"
   },
   "directories": {
