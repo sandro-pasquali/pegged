@@ -67,10 +67,18 @@ testboard
     .then(function(res) {
         console.log('zeroed:', res);
 
+        return testboard.connect('testboard');
+    })
+    .then(function(res) {
+
+        console.log('Board exists ' + res);
+
         return testboard.destroy();
     })
     .then(function(res) {
-        console.log('destroyed:', res);
+        console.log('testboard destroyed:', res);
+
+        return testboard.connect('noboardhere');
     })
     .catch(function(err) {
         console.log('Err:', err)
