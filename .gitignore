@@ -1,4 +1,12 @@
-node_modules
+logs
 *.log
-*.rdb
+pids
+*.pid
+*.seed
+node_modules
+.DS_Store
 .idea
+
+# node-waf configuration
+#
+.lock-wscript
