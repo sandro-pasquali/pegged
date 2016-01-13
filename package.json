@@ -18,10 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.1.1",
-    "hiredis": "^0.4.1",
-    "lodash": "^4.0.0",
     "pushpin": "^1.0.1",
-    "redis": "^2.4.2",
     "redis-hook": "^1.0.0"
   },
   "directories": {
